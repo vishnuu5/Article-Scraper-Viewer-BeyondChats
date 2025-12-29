@@ -34,7 +34,7 @@ const app = express();
 app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ extended: true, limit: "50mb" }));
 
-const defaultOrigins = ["http://localhost:3000"];
+const defaultOrigins = ["http://localhost:3000", "https://article-scraper-viewer-beyond-chats.vercel.app"];
 const envOrigins = (process.env.CORS_ALLOWED_ORIGINS || "")
   .split(",")
   .map((o) => o.trim())
