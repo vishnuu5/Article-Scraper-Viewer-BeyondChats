@@ -55,7 +55,7 @@ https://github.com/vishnuu5/Article-Scraper-Viewer-BeyondChats.git
 
 **View Project Demo**
 
-[View Project]()
+[View Project](https://article-scraper-viewer-beyond-chats.vercel.app)
 
 ## Installation & Setup
 
